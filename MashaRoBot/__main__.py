@@ -77,7 +77,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="👨‍💻 𝐎𝐖𝐍𝐄𝐑", url="https://t.me/itzmecrazy"),
+        InlineKeyboardButton(text="👨‍💻 𝐎𝐖𝐍𝐄𝐑", url="https://t.me/Call_Me_ProCoder"),
         InlineKeyboardButton(
             text="🤗 𝐓𝐫𝐲 𝐈𝐧𝐥𝐢𝐧𝐞", switch_inline_query_current_chat="",
         ),
