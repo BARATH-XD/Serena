@@ -120,7 +120,7 @@ def chatbot(update: Update, context: CallbackContext):
             return
         Message = message.text
         bot.send_chat_action(chat_id, action="typing")
-        kukiurl = requests.get('https://www.kukiapi.xyz/api/apikey=5349869477-KUKIhU1ygu8mm0/Cutiepii/@Awesome_RJ/message='+Message)
+        kukiurl = requests.get('http://api.brainshop.ai/get?bid=170044&key=jK0lbt7oqgVXPgId&uid=[uid]&msg='+Message)
         Kuki = json.loads(kukiurl.text)
         kuki = Kuki['reply']
         sleep(0.3)
@@ -142,8 +142,7 @@ def list_all_chats(update: Update, context: CallbackContext):
 
 __help__= f"""
 *Serena AI * 
-/chatbot : Enables and Disables kazuko AI Chat mode (EXCLUSIVE)
-*Powered by* : [Kuki Chatbot](https://github.com/MoeZilla/KukiChatbot)
+/chatbot : Enables and Disables Serena AI Chat mode (EXCLUSIVE)
 """
 
 __mod_name__ = "ᴄʜᴀᴛʙᴏᴛ🤓"
