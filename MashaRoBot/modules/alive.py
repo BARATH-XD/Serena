@@ -23,7 +23,6 @@ file4 = "https://telegra.ph/file/5f92dd01bf8d9d0528ed8.jpg"
 file5 = "https://telegra.ph/file/f96a0748425e2fe528f0a.jpg"
 """ =======================SERENA====================== """
 
-BUTTON = [[Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/serena_support"), Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/SerenaUpdates")]]
 
 
 START_TIME = datetime.utcnow()
