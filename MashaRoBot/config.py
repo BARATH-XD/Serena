@@ -11,11 +11,11 @@ class Config(object):
     LOGGER = True
   
     TEMP_DOWNLOAD_DIRECTORY = 'None'
-    API_ID = FILL API ID
-    API_HASH = "FIL API HASH"
-    TOKEN = "BOT_TOKEN"
+    API_ID = ""
+    API_HASH = ""
+    TOKEN = ""
     OWNER_ID = 1891633746  
-    OWNER_USERNAME = "itzmecrazy"
+    OWNER_USERNAME = ""
     SUPPORT_CHAT = 'serena_support'
     JOIN_LOGGER = -1001666190681
     EVENT_LOGS = -1001666190681
