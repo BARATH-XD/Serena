@@ -68,12 +68,12 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="t.me/PrinceSerenaBot?startgroup=true"),
+            text="➕️ 𝐀𝐃𝐃 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="t.me/CuteSerenaBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/Serena_Support"),
         InlineKeyboardButton(
-            text="📣 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/SerenaUpdates"
+            text="📣 𝐔𝐏𝐃𝐀𝐓𝐄𝐒", url="https://t.me/Serena_Updates"
         ),
     ],
     [
@@ -95,7 +95,7 @@ HELP_STRINGS = """
 × /start: 𝐒𝐭𝐚𝐫𝐭 𝐭𝐡𝐞 𝐛𝐨𝐭
 × /help: 𝐆𝐢𝐯𝐞'𝐬 𝐲𝐨𝐮 𝐭𝐡𝐢𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞.
 × /donate: 𝐆𝐢𝐯𝐞𝐬 𝐲𝐨𝐮 𝐢𝐧𝐟𝐨 𝐨𝐧 𝐡𝐨𝐰 𝐭𝐨 𝐬𝐮𝐩𝐩𝐨𝐫𝐭 𝐦𝐞 𝐚𝐧𝐝 𝐦𝐲 𝐜𝐫𝐞𝐚𝐭𝐨𝐫.
-𝐀𝐥𝐥 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐜𝐚𝐧 𝐞𝐢𝐭𝐡𝐞𝐫 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐰𝐢𝐭𝐡 / 𝐎𝐑 !."""
+𝐀𝐥𝐥 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐜𝐚𝐧 𝐞𝐢𝐭𝐡𝐞𝐫 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐰𝐢𝐭𝐡 / 𝐎𝐑 !"""
 
 DONATE_STRING = """Don't need to donate I'm free for every one add your group's this my donate🙂"""
 
@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
                   InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/serena_support")
                   ],
                   [
-                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/SerenaUpdates")
+                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/Serena_Updates")
                   ]
                 ]
             ),
