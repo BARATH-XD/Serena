@@ -61,8 +61,8 @@ async def hmm(yes):
     pm_caption += f"**♡ My Uptime :** `{uptime}`\n\n"
     pm_caption += f"**♡ Telethon Version :** `{version.__version__}`\n\n"
     pm_caption += f"**♡ Pyorgram Version :** `{pyro}`\n\n"
-    pm_caption += "**♡ My Master :** [Barath](https://t.me/itzmecrazy)\n"
-    BUTTON = [[Button.url("Support", "https://t.me/serena_support"), Button.url("Updates", "https://t.me/SerenaUpdates")]]
+    pm_caption += "**♡ My Master :** [Barath](https://t.me/ImCrazy_Boy)\n"
+    BUTTON = [[Button.url("Support", "https://t.me/serena_support"), Button.url("Updates", "https://t.me/Serena_Updates")]]
     on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption, buttons=BUTTON)
     
 
