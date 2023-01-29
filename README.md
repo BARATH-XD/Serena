@@ -1,1 +1,1 @@
-Heroku.com/deploy
+[Heroku](heroku.com/deploy)
