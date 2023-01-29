@@ -14,7 +14,7 @@ class Config(object):
     API_ID = ""
     API_HASH = ""
     TOKEN = ""
-    OWNER_ID = 1891633746  
+    OWNER_ID = 1666544436  
     OWNER_USERNAME = ""
     SUPPORT_CHAT = 'serena_support'
     JOIN_LOGGER = -1001666190681
@@ -29,7 +29,7 @@ class Config(object):
     URL = None
     SPAMWATCH_API = ""  
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
-    BOT_ID = "2024537660"
+    BOT_ID = "6005606875"
     
     DRAGONS = get_user_list('elevated_users.json', 'sudos')
 
