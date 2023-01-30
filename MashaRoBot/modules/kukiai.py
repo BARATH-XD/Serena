@@ -122,7 +122,7 @@ def chatbot(update: Update, context: CallbackContext):
         bot.send_chat_action(chat_id, action="typing")
         kukiurl = requests.get('http://api.brainshop.ai/get?bid=170044&key=jK0lbt7oqgVXPgId&uid=[uid]&msg='+Message)
         Kuki = json.loads(kukiurl.text)
-        kuki = Kuki['reply']
+        kuki = Kuki['cnt']
         sleep(0.3)
         message.reply_text(kuki, timeout=60)
 
