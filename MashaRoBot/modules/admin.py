@@ -639,6 +639,8 @@ __help__ = """
  ❍ /title <title here>*:* sets a custom title for an admin that the bot promoted
  ❍ /admincache*:* force refresh the admins list
  ❍ /antispam <on/off/yes/no>*:* Will toggle our antispam tech or return your current settings.
+ ❍ /del*:* deletes the message you replied to
+ ❍ /purge*:* deletes all messages between this and the replied to message.
 """
 
 ADMINLIST_HANDLER = DisableAbleCommandHandler("admins", adminlist)
